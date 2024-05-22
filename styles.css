@@ -1,0 +1,155 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #9e9e9e;
+}
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*NAV*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(43, 35, 143) 0%,
+    rgba(49, 133, 252) 76%
+  );
+  height: 120px;
+  border-radius: 20px;
+}
+
+nav h2 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  width: 146px;
+  height: auto;
+}
+
+.container-lista-nav {
+  display: flex;
+}
+
+.lista-nav {
+  list-style-type: none;
+}
+
+.elemento-vacio-lista-nav {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-right: 25px;
+  margin-bottom: 7px;
+}
+
+.elemento-lista-nav {
+  margin-bottom: 7px;
+}
+
+.lista-nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: #ffffff;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (max-width: 750px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 280px;
+  }
+
+  .foto-perfil {
+    border-radius: 50%;
+    width: 90px;
+    height: auto;
+  }
+
+  nav h2 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+  }
+}
+
+/*REDES SOCIALES*/
+.lista-redes-sociales {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.lista-redes-sociales a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/*MAIN*/
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  background-color: #e84855;
+  border-radius: 20px;
+}
+
+.separador {
+  border: 2px solid #efbcd5;
+}
+
+.h2-seccion {
+  /*font-family: "Henny Penny", system-ui;
+  font-weight: 600;
+  font-style: normal;*/
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.texto-seccion {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h3-seccion {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  background-color: #f9dc5c;
+  border-radius: 20px;
+}
